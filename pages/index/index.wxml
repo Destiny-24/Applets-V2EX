@@ -1,0 +1,9 @@
+<view class="page-container">
+  <navigator class="topics-item" wx:key="id" wx:for="{{topics}}" url="/pages/show/show?id={{item.id}}">
+    <image class="topics-avatar" src="{{item.member.avatar_normal}}" alt=""></image>
+    <view class="topics-content">
+      <view class="topics-username">{{item.member.username}}</view>
+      <view class="topics-title">{{item.title}}</view>
+    </view>
+  </navigator>
+</view>
