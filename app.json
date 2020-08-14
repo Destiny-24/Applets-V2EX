@@ -2,7 +2,6 @@
   "pages":[
     "pages/index/index",
     "pages/node/node",
-    "pages/show/show",
     "pages/topics/topics"
   ],
   "window":{
